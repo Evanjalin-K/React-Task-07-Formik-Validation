@@ -72,13 +72,20 @@ button{
     .exitButton{
         margin-bottom: 20px;
     }
+    .addBookButton{
+        margin-bottom: 20px;
+    }
 }
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     
-    .bookTable{    
+.bookTable{    
 
     margin: 0;
 }   
+.addBookButton{
+    margin-bottom: 30px;
+}
+
   }
   
