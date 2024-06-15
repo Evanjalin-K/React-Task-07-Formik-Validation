@@ -1,4 +1,4 @@
-# React Task 07-Form Validation 
+# React Task 07-Formik Validation 
 
 1. This task has a navigation bar; if you click on Dashboard, two cards will be displayed with content. Books and authors. To make the navigation bar look good, I have given a dummy input field for search, login, and signup buttons.
 2. By clicking Books card, the books data will display. In that form, we can perform CRUD. 
