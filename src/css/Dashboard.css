@@ -1,0 +1,129 @@
+.nav-container {
+    padding: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .inputNav {
+    margin-top: 15px;
+    border: solid 1px rgba(128, 128, 128, 0.518);
+    padding: 6px;
+    border-radius: 5px;
+    width: 200px; 
+  }
+  
+  .inputNav:focus {
+    outline: none;
+  }
+  
+  .nav-buttons {
+    text-align: right;
+  }
+  
+  .btn {
+    border: solid 1px rgba(119, 136, 153, 0.705);
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: 900;
+  }
+  
+  .login {
+    color: rgb(247, 167, 19);
+    margin-right: 20px;
+    border: none;
+  }
+  
+  .signup {
+    color: rgb(247, 167, 19);
+    margin-right: 20px;
+    border: none;
+  }
+  
+  .dashboard {
+    color: rgb(247, 167, 19);
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 20px;
+  }
+  
+  .dashboard:hover {
+    color: black;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .dashboard {
+      margin-left: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .dashboard {
+      margin-left: 10px;
+      margin-top: 5px;
+      font-size: large;
+    }
+  
+    .nav-buttons {
+      text-align: center;
+    }
+  
+    .login {
+      margin-right: 10px;
+    }
+  
+    .signup {
+      margin-right: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 680px) {
+    .dashboard {
+      margin-left: 10px;
+      margin-top: 5px;
+      font-size: medium;
+    }
+  
+    .nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
+  
+    .inputNav {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .nav-buttons {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .login,
+    .signup {
+      margin: 5px;
+    }
+  
+    hr {
+      display: block; 
+      margin: 20px auto; 
+      width: 80%; 
+      border: none;
+      border-top: 1px solid rgba(128, 128, 128, 0.518); 
+    }
+  }
+  

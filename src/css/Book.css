@@ -1,0 +1,84 @@
+td{
+    border: solid 2px black;
+    text-align: justify;
+    padding: 30px;
+}
+th{
+    border: solid 2px black;
+    text-align: center;
+    padding: 30px;
+}
+.exitButton{
+    margin-bottom: 90px;
+}
+button{
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bookTable {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+  }
+.Button{
+    margin-top: 30px;
+    margin-left: 40%;
+    border: solid 1px rgba(119, 136, 153, 0.705);
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    
+}
+.addBookButton{
+    background-color: white;
+    font-weight: 900;
+    border: solid lightgray 1px;
+    margin-left: 30px;
+}
+
+.addBookButton:hover{
+    background-color: black;
+    color: white;
+}
+
+.error{
+    color: red;
+}
+.del{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.edit{
+     
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.edit:hover{
+    background-color: black;
+}
+.del:hover{
+    background-color: black;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .bookTable{
+        margin: 0%;
+    }
+    .exitButton{
+        margin-bottom: 20px;
+    }
+}
+
+  @media only screen and (max-width: 600px) {
+    
+    .bookTable{    
+
+    margin: 0;
+}   
+  }
+  
