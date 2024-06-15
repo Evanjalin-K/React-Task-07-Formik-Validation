@@ -1,39 +1,43 @@
-
-.container 
-{
+.container {
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
   margin-top: 100px;
 }
 
-
-.card1
-{
+.card1 {
   width: 390px;
-  text-decoration: none;
-
 }
 
-.card2
-{
+.card2 {
   width: 330px;
-
 }
 
-img
-{
+img {
   width: 100%;
-  text-decoration: none;
-
 }
 
-.link{
+.link {
   text-decoration: none;
 }
-.card1:hover {
-  transform: scale(1.2); 
-}
+
+.card1:hover,
 .card2:hover {
-  transform: scale(1.2); 
+  transform: scale(1.2);
+}
+
+
+@media only screen and (max-width: 768px) {
+  .card1,
+  .card2 {
+    width: 70%;
+    max-width: none;
+    margin-left: 15%;
+  }
+  .book, .author{
+    font-size: xx-small;
+  }
+  .container{
+    margin-top: 30px;
+  }
 }
